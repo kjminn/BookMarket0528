@@ -32,6 +32,11 @@ public class CartRepositoryImpl implements CartRepository {
     }
 
     @Override
+    public void delete(String cartId) {
+
+    }
+
+    @Override
     public Cart read(String cartId) {
         return listOfCarts.get(cartId);
     }
